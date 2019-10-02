@@ -15,6 +15,7 @@
 		25FAC5792344FDCF004EB393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FAC5772344FDCF004EB393 /* LaunchScreen.storyboard */; };
 		25FAC58123450073004EB393 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAC58023450073004EB393 /* LocationManager.swift */; };
 		25FAC58323450B9F004EB393 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAC58223450B9F004EB393 /* Station.swift */; };
+		25FAC5852345326C004EB393 /* stationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAC5842345326C004EB393 /* stationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		25FAC57A2344FDCF004EB393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25FAC58023450073004EB393 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		25FAC58223450B9F004EB393 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		25FAC5842345326C004EB393 /* stationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				25FAC57A2344FDCF004EB393 /* Info.plist */,
 				25FAC58023450073004EB393 /* LocationManager.swift */,
 				25FAC58223450B9F004EB393 /* Station.swift */,
+				25FAC5842345326C004EB393 /* stationController.swift */,
 			);
 			path = GasMap;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FAC5852345326C004EB393 /* stationController.swift in Sources */,
 				25FAC58123450073004EB393 /* LocationManager.swift in Sources */,
 				25FAC58323450B9F004EB393 /* Station.swift in Sources */,
 				25FAC5712344FDCE004EB393 /* ViewController.swift in Sources */,
