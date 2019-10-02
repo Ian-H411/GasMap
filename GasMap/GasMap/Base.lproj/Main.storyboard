@@ -24,6 +24,9 @@
                                 <state key="normal" title="SearchNearby">
                                     <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="searchNearbyButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GRP-gQ-ZRV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -39,6 +42,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="gasMap" destination="H8D-FU-X7D" id="Vey-lz-t7f"/>
+                        <outlet property="searchButton" destination="zZX-lf-Bo2" id="rcy-Ku-iPa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
