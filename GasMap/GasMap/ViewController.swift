@@ -34,7 +34,8 @@ class ViewController: UIViewController {
     //MARK: - ACTIONS
     
     @IBAction func searchNearbyButtonTapped(_ sender: Any) {
-        
+        guard let location = currentLocation else {return}
+        StationController.shared.retrieveStations(location: location, radius: 12000)
     }
     
     @IBAction func centerOnLocationButtonTapped(_ sender: Any) {
@@ -60,10 +61,6 @@ class ViewController: UIViewController {
 extension ViewController: CLLocationManagerDelegate{
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         for location in locations{
-//            let timeOfLocation = location.timestamp.timeIntervalSinceNow
-//            guard location.horizontalAccuracy < 20 && abs(timeOfLocation) < 10 else{
-//                continue
-//            }
             guard let _ = currentLocation else {
                 centerMapOnLocation(location: location, regionRadius: 12000)
                 currentLocation = location
